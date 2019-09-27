@@ -11,6 +11,7 @@ public class LinkedhashSetDemo {
 		lhs.add(1);
 		lhs.add(1.2);
 		lhs.add(null);
+		
 		System.out.println(lhs);
 		lhs.remove(1);
 	}

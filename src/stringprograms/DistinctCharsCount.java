@@ -28,7 +28,7 @@ public class DistinctCharsCount {
 		List<Character> list = input.chars().mapToObj(c -> (char) c).collect(Collectors.toList());
 
 		list.stream().forEach(c -> charsWithCountMap.merge(c, 1, Integer::sum));
-
+		
 		System.out.println(charsWithCountMap);
 
 	}
